@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "vini2003.xyz.blackhole.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [],
+  "client": [
+    "client.InGameHudMixin",
+    "client.WorldRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "blackhole-refmap.json"
+}

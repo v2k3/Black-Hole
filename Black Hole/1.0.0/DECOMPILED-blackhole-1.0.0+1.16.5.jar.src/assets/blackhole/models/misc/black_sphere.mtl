@@ -1,0 +1,3 @@
+newmtl redstone
+emissive true
+texture minecraft:block/stone

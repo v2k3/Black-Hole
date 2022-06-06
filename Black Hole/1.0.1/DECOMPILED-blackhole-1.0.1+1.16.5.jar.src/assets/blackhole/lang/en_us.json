@@ -1,0 +1,23 @@
+{
+  "text.autoconfig.blackhole.title": "Black Hole",
+  "text.autoconfig.blackhole.option.limit": "Size limit",
+  "text.autoconfig.blackhole.option.follow": "Follow",
+  "text.autoconfig.blackhole.option.grow": "Grow",
+  "text.autoconfig.blackhole.option.pull": "Pull",
+  "text.autoconfig.blackhole.option.destroy": "Destroy",
+  "text.autoconfig.blackhole.option.damage": "Damage",
+  "text.autoconfig.blackhole.option.followSpeed": "Follow speed",
+  "text.autoconfig.blackhole.option.growthSpeed": "Growth speed",
+  "text.autoconfig.blackhole.option.pullSpeed": "Pull strength",
+  "text.command.blackhole.spawn.success": "Created new black hole",
+  "text.command.blackhole.spawn.failure": "There is already a black hole in this world",
+  "text.command.blackhole.kill.success": "Eliminated existing black hole",
+  "text.command.blackhole.kill.failure": "There are no black holes in this world",
+  "text.command.blackhole.followSpeed": "Changed following speed from %s to %s",
+  "text.command.blackhole.growSpeed": "Changed grow speed from %s to %s",
+  "text.command.blackhole.pullSpeed": "Changed pull speed from %s to %s",
+  "text.command.blackhole.damage.enable": "Enabled damage",
+  "text.command.blackhole.damage.disable": "Disabled damage",
+  "text.command.blackhole.pause": "Paused the black hole",
+  "text.command.blackhole.resume": "Resumed the black hole"
+}

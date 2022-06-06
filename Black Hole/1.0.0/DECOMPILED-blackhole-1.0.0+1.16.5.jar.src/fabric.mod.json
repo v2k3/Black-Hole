@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "blackhole",
+  "version": "1.0.0+1.16.5",
+  "name": "Black Hole",
+  "description": "A mod adding black holes to the world of Minecraft.",
+  "authors": [
+    "vini2003",
+    "Draylar"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/blackhole/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "vini2003.xyz.blackhole.BlackHoleClient"
+    ],
+    "main": [
+      "vini2003.xyz.blackhole.BlackHole"
+    ],
+    "modmenu": [
+      "vini2003.xyz.blackhole.client.modmenu.BlackHoleModMenu"
+    ],
+    "cardinal-components": [
+      "vini2003.xyz.blackhole.registry.common.BlackHoleComponents"
+    ]
+  },
+  "mixins": [
+    "blackhole.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.11.1",
+    "fabric": "\u003e\u003d0.30.0+1.16",
+    "minecraft": "1.16.5",
+    "myron": "\u003e\u003d1.5.0",
+    "cloth-config2": "\u003e\u003d4.10.9"
+  },
+  "custom": {
+    "cardinal-components": [
+      "blackhole:black_holes"
+    ]
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/myron-1.5.1.jar"
+    }
+  ]
+}
